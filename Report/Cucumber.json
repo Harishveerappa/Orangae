@@ -1,0 +1,112 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "to-add-the-employee-details-by-using-orange-hrm-application;login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4543464800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Must Launch The \"chrome\" Browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 22
+                }
+              ],
+              "location": "OrangeHrmstep.user_Must_Launch_The_Browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32710743400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Must Launch The \"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\" Url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+                  "offset": 22
+                }
+              ],
+              "location": "OrangeHrmstep.user_Must_Launch_The_Url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 696968500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Must Enter The Username \"Admin\" In User Name Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 30
+                }
+              ],
+              "location": "OrangeHrmstep.user_Must_Enter_The_Username_In_User_Name_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118775200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Must Enter The Password \"admin123\" In User Name Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 30
+                }
+              ],
+              "location": "OrangeHrmstep.user_Must_Enter_The_Password_In_User_Name_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85081800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Must Click The Login Button and Its Navigate To Home Page",
+            "match": {
+              "location": "OrangeHrmstep.user_Must_Click_The_Login_Button_and_Its_Navigate_To_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "To Add The Employee Details By Using Orange HRM Application",
+    "description": "",
+    "id": "to-add-the-employee-details-by-using-orange-hrm-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/hveer/eclipse-workspace/Cucumber_Project/src/test/java/com/feature/OrangeHRM.feature"
+  }
+]
